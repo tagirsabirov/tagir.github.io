@@ -1,2 +1,2 @@
-# tagirsabirov.github.io
+# tagirsabirov.github.io/about
 Tagir's Website
