@@ -1,0 +1,337 @@
+/* =============================================
+	Color: Brown
+	Color Code: #B96C34 / rgba(185,108,52)
+================================================ */
+.intro::before {
+    background: rgba(185,108,52, 0.96);
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
+    color: #B96C34;
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a {
+    background: #B96C34;
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
+    color: #B96C34;
+}
+header nav.navbar .navbar-morki ul.nav li a:focus {
+    color: #B96C34;
+}
+.intro .intro-info .intro-info-content ul li:first-child a {
+    color: #B96C34;
+}
+.section-header h2::before {
+    background: #B96C34;
+}
+.services .service-box .icon {
+    border: 2px solid #B96C34;
+}
+.services .service-box:hover .icon {
+    background: #B96C34;
+    border-color: #B96C34;
+}
+.services .service-box .icon::after {
+    background: #B96C34;
+}
+.services .service-box:hover a {
+    color: #B96C34;
+}
+.about-app .app-info h2 span {
+    color: #B96C34;
+}
+.about-app .app-info ul li::before {
+    color: #B96C34;
+}
+.app-features .features-left .feature-single .feature-icon span {
+    color: #B96C34;
+}
+.app-features .features-left .feature-single:hover .feature-icon span::before {
+    background: #B96C34;
+}
+.app-features .features-right .feature-single .feature-icon span {
+    color: #B96C34;
+}
+.app-features .features-right .feature-single:hover .feature-icon span::before {
+    background: #B96C34;
+}
+.video-featured::before {
+    background: rgba(185,108,52, 0.95);
+}
+.video-featured a.video-btn span:first-child {
+    color: #B96C34;
+}
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::before,
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::after {
+    background: #B96C34;
+}
+.screenshots .gallery-info a {
+    background: #B96C34;
+}
+.screenshots .owl-dots .owl-dot span::before {
+    border: 2px solid #B96C34;
+}
+.screenshots .owl-dots .owl-dot.active span::before {
+    background: #B96C34;
+}
+.screenshots .owl-dots .owl-dot span {
+    border: 2px solid #B96C34;
+}
+.counters .counter-box div {
+    color: #B96C34;
+}
+.counters .counter-box:hover div::before {
+    background: #B96C34;
+    border-color: #B96C34;
+}
+.counters .counter-box span {
+    color: #B96C34;
+}
+.price-table .price-table-wrapper .price-header span.price {
+    color: #B96C34;
+}
+.price-table .price-table-wrapper .price-btn a {
+    border: 2px solid #B96C34;
+    color: #B96C34;
+}
+.price-table .price-table-wrapper:hover .price-btn a {
+    background: #B96C34;
+}
+.price-table .price-table-wrapper.price-table-featured::before {
+    background: #B96C34;
+}
+.price-table .price-table-wrapper.price-table-featured .price-btn a {
+    background: #B96C34;
+}
+.testimonial .testimonial-slider .slide-single .client-info ul li.client-image::before {
+    background: #B96C34;
+}
+.testimonial .owl-dots .owl-dot.active span::before {
+    background: #B96C34;
+}
+.testimonial .owl-dots .owl-dot span::before {
+    border: 2px solid #B96C34;
+}
+.testimonial .owl-dots .owl-dot span {
+    border: 2px solid #B96C34;
+}
+.team .team-carousel .team-single figure figcaption {
+    background: rgba(185,108,52, 0.9);
+}
+.team .team-carousel .team-single figure figcaption div ul li a:hover {
+    color: #B96C34;
+}
+.team .owl-dots .owl-dot.active span::before {
+    background: #B96C34;
+}
+.team .owl-dots .owl-dot span::before {
+    border: 2px solid #B96C34;
+}
+.team .owl-dots .owl-dot span {
+    border: 2px solid #B96C34;
+}
+.download-app::before {
+    background: rgba(185,108,52, 0.9);
+}
+.change-log .changelog-timeline::before {
+    background: #B96C34;
+}
+.change-log .changelog-timeline .timeline-single .icon {
+    color: #B96C34;
+}
+.faqs .faq-single .faq-icon span {
+    background: #B96C34;
+}
+.newsletter::before {
+    background: rgba(185,108,52, 0.95);
+}
+.newsletter form button {
+    color: #B96C34;
+}
+.blog .blog-single figure figcaption ul.post-meta {
+    background: rgba(185,108,52, 0.9);
+}
+.blog .blog-single:hover figure figcaption h3 a,
+.blog .blog-single:hover figure figcaption ul.post-bottom li a {
+    color: #B96C34;
+}
+.blog .blog-btn a {
+    background: #B96C34;
+}
+.contact::before {
+    background: rgba(185,108,52, 0.95);
+}
+.contact .contact-details ul.contact-social li a {
+    color: #B96C34;
+}
+.contact .contact-wrapper form .form-group button {
+    color: #B96C34;
+}
+footer p i {
+    color: #B96C34;
+}
+footer .footer-bottom-menu ul li a:hover {
+    color: #B96C34;
+}
+footer p#back-top a:hover {
+    background: #B96C34;
+    border-color: #B96C34;
+}
+#hill {
+    border-left: .25em solid #B96C34;
+}
+#box {
+    border: .25em solid #B96C34;
+}
+.about-app2::before {
+    background: #B96C34;
+}
+.about-app2 .app-info h2 span {
+    color: #333;
+}
+.about-app2 .app-info ul li::before {
+    color: #333;
+}
+.pages-header::before {
+    background: rgba(185,108,52, 0.95);
+}
+.blog-wrapper .blog-sidebar .sidebar-widget h3::before {
+    background: #B96C34;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
+    background: #B96C34;
+    border: 1px solid #B96C34;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
+    border-color: #B96C34;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li::before,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li::before {
+    background: #B96C34;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
+    color: #B96C34;
+}
+.post-details .article-meta ul li a {
+    color: #B96C34;
+}
+.post-details .article-content blockquote {
+    border: 4px double rgba(185,108,52, 0.4);
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
+    border-color: #B96C34;
+    color: #B96C34;
+}
+.post-details .article-content ul.blog-post-pagination li a:hover {
+    color: #B96C34;
+}
+.post-details .post-comments ul.comment-list li .comment-details h3 {
+    color: #B96C34;
+}
+.post-details .post-comments ul.comment-list li .comment-details a:hover {
+    color: #B96C34;
+}
+.post-details .leave-comment form .form-group button {
+    background: #B96C34;
+    border: 2px solid #B96C34;
+}
+.post-details .leave-comment form .form-group button:hover {
+    color: #B96C34;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
+    background: rgba(185,108,52, 0.7);
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
+    color: #B96C34;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
+    color: #B96C34;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
+    background: #B96C34;
+    border-color: #B96C34;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn::before {
+    background: #B96C34;
+}
+.blog-wrapper .blog-content .blog-pagination ul li.active a {
+    background: #B96C34;
+    border-color: #B96C34;
+}
+.blog-wrapper .blog-content .blog-pagination ul li a:hover {
+    border-color: #B96C34;
+    color: #B96C34;
+}
+.get-notified form button {
+    color: #B96C34;
+}
+.contact-main .section-header h2::before {
+    background: #B96C34;
+}
+.contact-main .contact-wrapper form .form-group input:focus,
+.contact-main .contact-wrapper form .form-group textarea:focus {
+    border-color: #B96C34;
+}
+.contact .contact-wrapper form .form-group button {
+    color: #B96C34;
+}
+.contact-main .contact-details ul.contact-info-list li i {
+    color: #B96C34;
+}
+
+.gallery-wrapper .portfolio-content figure:hover figcaption {
+    background: rgba(185,108,52, 0.9);
+}
+.gallery-wrapper .gallery-pagination ul li.active a {
+    background: #B96C34;
+}
+.gallery-wrapper .gallery-pagination ul li a:hover {
+    background: #B96C34;
+}
+.shop-wrapper .single-product figure figcaption {
+    background: rgba(185,108,52, 0.9);
+}
+.shop-wrapper .single-product figure figcaption div a {
+    color: #B96C34;
+}
+.shop-wrapper .single-product .product-meta span {
+    color: #B96C34;
+}
+.shop-wrapper .single-product .product-meta h3 a:hover {
+    color: #B96C34;
+}
+.shop-wrapper .shop-pagination ul li.active a {
+    background: #B96C34;
+}
+.shop-wrapper .shop-pagination ul li a:hover {
+    background: #B96C34;
+}
+.product-details-container ul.product-rating li {
+    color: #B96C34;
+}
+.product-details-container .p-price p {
+    color: #B96C34;
+}
+.product-details-container ul.pd-btns li:first-child a {
+    background: #B96C34;
+}
+.product-details-container ul.pd-btns li:first-child a:hover {
+    color: #B96C34;
+}
+.product-details-container ul.pd-btns li a {
+    border: 1px solid #B96C34;
+    color: #B96C34;
+}
+.product-details-container ul.pd-btns li a:hover {
+    background: #B96C34;
+}
+.team-wrapper .team-single figure figcaption {
+    background: rgba(185,108,52, 0.9);
+}
+.team-wrapper .team-single figure figcaption div ul li a:hover {
+    color: #B96C34;
+}
+.contact-main .contact-wrapper form .form-group button {
+    color: #fff;
+    background: #B96C34;
+}

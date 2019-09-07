@@ -1,0 +1,337 @@
+/* =============================================
+	Color: Orange
+	Color Code: #FF9800 / rgba(255,152,0)
+================================================ */
+.intro::before {
+    background: rgba(255,152,0, 0.96);
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
+    color: #FF9800;
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a {
+    background: #FF9800;
+}
+header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
+    color: #FF9800;
+}
+header nav.navbar .navbar-morki ul.nav li a:focus {
+    color: #FF9800;
+}
+.intro .intro-info .intro-info-content ul li:first-child a {
+    color: #FF9800;
+}
+.section-header h2::before {
+    background: #FF9800;
+}
+.services .service-box .icon {
+    border: 2px solid #FF9800;
+}
+.services .service-box:hover .icon {
+    background: #FF9800;
+    border-color: #FF9800;
+}
+.services .service-box .icon::after {
+    background: #FF9800;
+}
+.services .service-box:hover a {
+    color: #FF9800;
+}
+.about-app .app-info h2 span {
+    color: #FF9800;
+}
+.about-app .app-info ul li::before {
+    color: #FF9800;
+}
+.app-features .features-left .feature-single .feature-icon span {
+    color: #FF9800;
+}
+.app-features .features-left .feature-single:hover .feature-icon span::before {
+    background: #FF9800;
+}
+.app-features .features-right .feature-single .feature-icon span {
+    color: #FF9800;
+}
+.app-features .features-right .feature-single:hover .feature-icon span::before {
+    background: #FF9800;
+}
+.video-featured::before {
+    background: rgba(255,152,0, 0.95);
+}
+.video-featured a.video-btn span:first-child {
+    color: #FF9800;
+}
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::before,
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::after {
+    background: #FF9800;
+}
+.screenshots .gallery-info a {
+    background: #FF9800;
+}
+.screenshots .owl-dots .owl-dot span::before {
+    border: 2px solid #FF9800;
+}
+.screenshots .owl-dots .owl-dot.active span::before {
+    background: #FF9800;
+}
+.screenshots .owl-dots .owl-dot span {
+    border: 2px solid #FF9800;
+}
+.counters .counter-box div {
+    color: #FF9800;
+}
+.counters .counter-box:hover div::before {
+    background: #FF9800;
+    border-color: #FF9800;
+}
+.counters .counter-box span {
+    color: #FF9800;
+}
+.price-table .price-table-wrapper .price-header span.price {
+    color: #FF9800;
+}
+.price-table .price-table-wrapper .price-btn a {
+    border: 2px solid #FF9800;
+    color: #FF9800;
+}
+.price-table .price-table-wrapper:hover .price-btn a {
+    background: #FF9800;
+}
+.price-table .price-table-wrapper.price-table-featured::before {
+    background: #FF9800;
+}
+.price-table .price-table-wrapper.price-table-featured .price-btn a {
+    background: #FF9800;
+}
+.testimonial .testimonial-slider .slide-single .client-info ul li.client-image::before {
+    background: #FF9800;
+}
+.testimonial .owl-dots .owl-dot.active span::before {
+    background: #FF9800;
+}
+.testimonial .owl-dots .owl-dot span::before {
+    border: 2px solid #FF9800;
+}
+.testimonial .owl-dots .owl-dot span {
+    border: 2px solid #FF9800;
+}
+.team .team-carousel .team-single figure figcaption {
+    background: rgba(255,152,0, 0.9);
+}
+.team .team-carousel .team-single figure figcaption div ul li a:hover {
+    color: #FF9800;
+}
+.team .owl-dots .owl-dot.active span::before {
+    background: #FF9800;
+}
+.team .owl-dots .owl-dot span::before {
+    border: 2px solid #FF9800;
+}
+.team .owl-dots .owl-dot span {
+    border: 2px solid #FF9800;
+}
+.download-app::before {
+    background: rgba(255,152,0, 0.9);
+}
+.change-log .changelog-timeline::before {
+    background: #FF9800;
+}
+.change-log .changelog-timeline .timeline-single .icon {
+    color: #FF9800;
+}
+.faqs .faq-single .faq-icon span {
+    background: #FF9800;
+}
+.newsletter::before {
+    background: rgba(255,152,0, 0.95);
+}
+.newsletter form button {
+    color: #FF9800;
+}
+.blog .blog-single figure figcaption ul.post-meta {
+    background: rgba(255,152,0, 0.9);
+}
+.blog .blog-single:hover figure figcaption h3 a,
+.blog .blog-single:hover figure figcaption ul.post-bottom li a {
+    color: #FF9800;
+}
+.blog .blog-btn a {
+    background: #FF9800;
+}
+.contact::before {
+    background: rgba(255,152,0, 0.95);
+}
+.contact .contact-details ul.contact-social li a {
+    color: #FF9800;
+}
+.contact .contact-wrapper form .form-group button {
+    color: #FF9800;
+}
+footer p i {
+    color: #FF9800;
+}
+footer .footer-bottom-menu ul li a:hover {
+    color: #FF9800;
+}
+footer p#back-top a:hover {
+    background: #FF9800;
+    border-color: #FF9800;
+}
+#hill {
+    border-left: .25em solid #FF9800;
+}
+#box {
+    border: .25em solid #FF9800;
+}
+.about-app2::before {
+    background: #FF9800;
+}
+.about-app2 .app-info h2 span {
+    color: #333;
+}
+.about-app2 .app-info ul li::before {
+    color: #333;
+}
+.pages-header::before {
+    background: rgba(255,152,0, 0.95);
+}
+.blog-wrapper .blog-sidebar .sidebar-widget h3::before {
+    background: #FF9800;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
+    background: #FF9800;
+    border: 1px solid #FF9800;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
+    border-color: #FF9800;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li::before,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li::before {
+    background: #FF9800;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
+    color: #FF9800;
+}
+.post-details .article-meta ul li a {
+    color: #FF9800;
+}
+.post-details .article-content blockquote {
+    border: 4px double rgba(255,152,0, 0.4);
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
+    border-color: #FF9800;
+    color: #FF9800;
+}
+.post-details .article-content ul.blog-post-pagination li a:hover {
+    color: #FF9800;
+}
+.post-details .post-comments ul.comment-list li .comment-details h3 {
+    color: #FF9800;
+}
+.post-details .post-comments ul.comment-list li .comment-details a:hover {
+    color: #FF9800;
+}
+.post-details .leave-comment form .form-group button {
+    background: #FF9800;
+    border: 2px solid #FF9800;
+}
+.post-details .leave-comment form .form-group button:hover {
+    color: #FF9800;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
+    background: rgba(255,152,0, 0.7);
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
+    color: #FF9800;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
+    color: #FF9800;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
+    background: #FF9800;
+    border-color: #FF9800;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn::before {
+    background: #FF9800;
+}
+.blog-wrapper .blog-content .blog-pagination ul li.active a {
+    background: #FF9800;
+    border-color: #FF9800;
+}
+.blog-wrapper .blog-content .blog-pagination ul li a:hover {
+    border-color: #FF9800;
+    color: #FF9800;
+}
+.get-notified form button {
+    color: #FF9800;
+}
+.contact-main .section-header h2::before {
+    background: #FF9800;
+}
+.contact-main .contact-wrapper form .form-group input:focus,
+.contact-main .contact-wrapper form .form-group textarea:focus {
+    border-color: #FF9800;
+}
+.contact .contact-wrapper form .form-group button {
+    color: #FF9800;
+}
+.contact-main .contact-details ul.contact-info-list li i {
+    color: #FF9800;
+}
+
+.gallery-wrapper .portfolio-content figure:hover figcaption {
+    background: rgba(255,152,0, 0.9);
+}
+.gallery-wrapper .gallery-pagination ul li.active a {
+    background: #FF9800;
+}
+.gallery-wrapper .gallery-pagination ul li a:hover {
+    background: #FF9800;
+}
+.shop-wrapper .single-product figure figcaption {
+    background: rgba(255,152,0, 0.9);
+}
+.shop-wrapper .single-product figure figcaption div a {
+    color: #FF9800;
+}
+.shop-wrapper .single-product .product-meta span {
+    color: #FF9800;
+}
+.shop-wrapper .single-product .product-meta h3 a:hover {
+    color: #FF9800;
+}
+.shop-wrapper .shop-pagination ul li.active a {
+    background: #FF9800;
+}
+.shop-wrapper .shop-pagination ul li a:hover {
+    background: #FF9800;
+}
+.product-details-container ul.product-rating li {
+    color: #FF9800;
+}
+.product-details-container .p-price p {
+    color: #FF9800;
+}
+.product-details-container ul.pd-btns li:first-child a {
+    background: #FF9800;
+}
+.product-details-container ul.pd-btns li:first-child a:hover {
+    color: #FF9800;
+}
+.product-details-container ul.pd-btns li a {
+    border: 1px solid #FF9800;
+    color: #FF9800;
+}
+.product-details-container ul.pd-btns li a:hover {
+    background: #FF9800;
+}
+.team-wrapper .team-single figure figcaption {
+    background: rgba(255,152,0, 0.9);
+}
+.team-wrapper .team-single figure figcaption div ul li a:hover {
+    color: #FF9800;
+}
+.contact-main .contact-wrapper form .form-group button {
+    color: #fff;
+    background: #FF9800;
+}
