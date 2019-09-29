@@ -1,0 +1,58 @@
+
+    {% include header.html %}
+
+    <!-- Page Header -->
+    <section class="pages-header pages-menu-only"></section>
+    <!-- Ends: .pages-header -->
+
+    <!-- Blog Hero -->
+    <div class="blog-hero" style="background-image: url('{{page.image}}'); background-position: center {{ page.hero-img-top }};" ></div>
+    <!-- Ends: Blog Here -->
+
+   <!-- Main Content -->
+
+    <section class="interior-section bg-off">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12">
+            <div class="article-meta">
+              <h1>{{ page.title}}</h1>
+              <ul class="list-unstyled">
+                {% assign author = site.data.authors[page.author] %}
+                <li><i class="fa fa-user"></i> By <a href="{{ author.url }}" target="_blank">{{ author.name }}</a></li>
+                {% if page.hide-date != true %}
+                <li><i class="fa fa-clock-o"></i>{{ page.date | date: "%e/%b/%Y" }}</li>
+                {% endif %}
+                <li><i class="fa fa-tag"></i>
+                    {% for category in page.categories %}
+                        <a href="/blog/categories/{{ category }}">{{ category }}</a>&nbsp;
+                    {% endfor %}
+                </li>
+              </ul>
+            </div>
+            <hr/>
+            <div class="content">
+              {{ content }}
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Ends: Main Content -->
+
+    <!-- Related Posts -->
+    <section class="interior-section bg-on">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="addthis_relatedposts_inline"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58fe4840fcdb021c"></script>
+    <!-- Ends: Related Posts -->
+
+  {% include footer.html %}

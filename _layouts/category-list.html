@@ -1,0 +1,65 @@
+    {% include header.html %}
+
+
+        <!-- Page Header -->
+    <section class="pages-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="page-header-inner">
+              <div class="page-header-content">
+                <h1>{{ page.category }} Blog</h1>
+                <ul>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/blog/categories">Categories</a></li>
+                    <li>{{ page.category | capitalize }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ends: Page Header -->
+
+   <!-- Blog Listings-->
+
+    <section class="blog-wrapper">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12">
+                <div class="blog-content">
+
+                {% for blog in site.categories[page.category] %}
+
+                    <div class="col-sm-4">
+                        <div class="blog-single">
+                            <div class="blog-thumb">
+                                <figure>
+                                    {% if blog.thumbnail %}
+                                        <img src="{{ blog.thumbnail }}" alt="" class="img-responsive">
+                                    {% else %}
+                                        <img src="{{ blog.image }}" alt="" class="img-responsive">
+                                    {% endif %}
+                                </figure>
+                            </div>
+                            <div class="blog-single-contents">
+                                <h3><a href="{{ blog.url }}">{{ blog.title }}</a></h3>
+                                <p>{{ blog.description }}</p>
+                                <div class="rm-btn">
+                                    <a href="{{ blog.url }}">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ends: Blog Listings -->
+
+      {% include footer.html %}
