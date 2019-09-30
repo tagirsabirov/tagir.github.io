@@ -23,7 +23,6 @@ To view draft blog posts add the `--drafts` flag to the end.
 
 The site is broken up into several collections for different parts of the site:
 
-* `_pages`: This contains all the main website pages such as the home page, product pages, landing pages and essentially
-any pages required for the main marketing website
+* `_pages`: This contains all the main website pages such as the home page any pages required for the main website
 * `_posts`: All blog posts should go under this folder with their date at the beginning of the filename to appear in the blog
 section of the site. You can also create draft posts for review and scheduling under the `_drafts` folder of the site.
