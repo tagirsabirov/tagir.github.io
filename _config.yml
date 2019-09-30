@@ -3,7 +3,6 @@ title: Tagir Sabirov's Personal Website
 description: Tagir Sabirov's Personal Website & Blog
 
 # Rendering Settings
-theme: jekyll-theme-merlot
 include:
 - _pages
 exclude:
@@ -13,6 +12,7 @@ exclude:
 - Gemfile
 - Gemile.lock
 - scripts
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-redirect-from
   - jekyll-paginate
