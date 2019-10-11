@@ -1,0 +1,12 @@
+---
+title: Blog Categories
+layout: default
+permalink: /blog/categories/
+---
+
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <ul>
+        <li><a href="/blog/categories/{{ category_name }}">{{ category_name | capitalize | replace: "-", " " }}</a></li>
+    </ul>
+{% endfor %}
