@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	"use strict";
-	
+
 	//Intro Carousel
 	$(".intro-carousel").owlCarousel({
 		loop: false,
@@ -26,7 +26,7 @@ $(document).ready(function () {
 			}
 		}
     });
-	
+
 	//Screenshot Gallery
 	$(".screenshot-gallery").owlCarousel({
 		loop: false,
@@ -53,7 +53,7 @@ $(document).ready(function () {
 			}
 		}
     });
-	
+
 	//Testimonial
 	$(".testimonial-slider").owlCarousel({
 		loop: false,
@@ -77,8 +77,8 @@ $(document).ready(function () {
 			}
 		}
     });
-	
-	
+
+
 	//Team Carousel
 	$(".team-carousel").owlCarousel({
 		loop: false,
@@ -102,17 +102,17 @@ $(document).ready(function () {
 			}
 		}
     });
-	
-	
+
+
 	//Sticky JS
 	$(".navbar-default").sticky({topSpacing: 0});
-	
+
 	//Scroll Spy
 	$('body').scrollspy({ target: '#main-nav' });
-	
+
 	//Smooth Scrool
 	smoothScroll.init();
-	
+
 	//Portfolio Lightbox
 	$('.screenshot-single').magnificPopup({
 		delegate: 'a',
@@ -124,16 +124,16 @@ $(document).ready(function () {
 		removalDelay: 300,
 		mainClass: 'mfp-fade'
 	});
-	
+
 	//jQuery Counter
 	$('.counter-init').counterUp({
 		delay: 10,
 		time: 1500
 	});
-	
+
 	//Scroll Spy
 	$('body').scrollspy({ target: '#main-nav' });
-	
+
 	//Back to top
 	$("#back-top").hide();
 	$(function () {
@@ -152,7 +152,7 @@ $(document).ready(function () {
 			return false;
 		});
 	});
-	
+
 	//Magnific Popup
 	$('.video-btn').magnificPopup({
 		type: 'iframe',
@@ -171,7 +171,16 @@ $(document).ready(function () {
 			srcAction: 'iframe_src'
 		}
 	});
-	
+	$('.image-popup-vertical-fit').magnificPopup({
+			type: 'image',
+			closeOnContentClick: true,
+			mainClass: 'mfp-img-mobile',
+			image: {
+				verticalFit: true
+			}
+
+		});
+
 	// Simple Timer
 	$('#timer-wrapper').syotimer({
 		year: 2018,
@@ -180,17 +189,17 @@ $(document).ready(function () {
 		hour: 12,
 		minute: 30
 	});
-	
+
 	//Preloader
 	$(window).load(function() { // makes sure the whole site is loaded
 		$('#box,#hill').fadeOut(); // will first fade out the loading animation
 		$('#loader,.preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
 		$('body').delay(350).css({'overflow':'visible'});
 	})
-	
-	
+
+
 	//WOW JS
 	new WOW().init();
-	
-	
+
+
 });
