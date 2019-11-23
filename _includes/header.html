@@ -59,7 +59,7 @@
                         <div class="collapse navbar-collapse navbar-morki">
                             <ul class="nav navbar-nav navbar-right">
                                 <li {% if page.url == "/" %}class="active"{% endif %}><a href="/" data-scroll>Home</a></li>
-                                <li {% if page.url == "/" %}class="active"{% endif %}><a href="/gallery/" >Gallery</a></li>
+                                <li {% if page.url contains "/gallery" %}class="active"{% endif %}><a href="/gallery/" >Gallery</a></li>
                                 <li {% if page.url contains "/blog/" %}class="active"{% endif %}><a href="/blog/" data-scroll>Blog</a></li>
                                 <!--<li><a href="#contact" data-scroll>Contact</a></li>-->
                             </ul>
