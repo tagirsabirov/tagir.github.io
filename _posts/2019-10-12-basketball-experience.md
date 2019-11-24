@@ -2,7 +2,7 @@
 title:  My basketball experience
 hide-date: false
 author: tagir
-image: /assets/blog/raspberrypi-weather-station/sanfrancisco-fog.jpg
+image: /assets/blog/basketball-icon.png
 hero-img-top: 33%
 description: How I enjoy playing basketball
 categories: life-blogs
