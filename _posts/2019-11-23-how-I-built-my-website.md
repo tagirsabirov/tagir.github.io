@@ -1,11 +1,11 @@
 ---
-title:  "How I built my Website"
+title:  "How I Built My Website"
 hide-date: false
 author: tagir
-image: /assets/blog/website-icon.png
-hero-img-top: 33%
-description: "How I built my website"
-categories: yap
+image: /assets/blog/website-header.jpg
+hero-img-top: 17%
+description: "How I built this website using Github Pages and Jekyll"
+categories: life-blogs
 permalink: /blog/6th-grade-yap/
 layout: blog
 ---
@@ -22,7 +22,7 @@ After installing Ruby, you can install Jekyll by using the command: ```gem insta
 
 After installing Jekyll, you can set up your website shown by the link above.
 
-
-
-
 After I had setup the template, I had finished my website, which you are browsing on right now. This website is about me and my blogs.
+
+You can find the full source code for this website here: 
+[https://github.com/tagirsabirov/tagirsabirov.github.io](https://github.com/tagirsabirov/tagirsabirov.github.io){:target="_blank" rel="noopener"}

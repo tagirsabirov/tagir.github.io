@@ -1,10 +1,10 @@
 ---
-title:  My musical experience
+title:  My Musical Experience
 hide-date: false
 author: tagir
-image: /assets/blog/music-logo.jpg
-hero-img-top: 33%
-description: which musical instruments have I played and learned
+image: /assets/blog/music-header.jpg
+hero-img-top: 70%
+description: "I've taught myself to play 3 musical instruments: Piano, Ukulele & Guitar"
 categories: life-blogs
 permalink: /blog/musical-experience/
 layout: blog

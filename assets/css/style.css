@@ -388,24 +388,12 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Intro */
 .intro {
     min-height: 780px;
     padding: 50px 0 0 0;
     position: relative;
-    background: url(../images/intro-bg.jpg);
+    background: url(../img/intro-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -775,7 +763,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .newsletter {
     padding: 100px 0;
     text-align: center;
-    background: url(../images/intro-bg.jpg);
+    background: url(../img/intro-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1281,7 +1269,7 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .download-app {
     padding: 120px 0;
     text-align: center;
-    background: url(../images/intro-bg.jpg);
+    background: url(../img/intro-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1469,8 +1457,244 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 
 
 /* Blog */
-.blog {
-    padding: 120px 0;
+.blog-wrapper .blog-content .blog-single {
+    margin-bottom: 70px;
+    height: 440px;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure {
+    position: relative;
+    overflow: hidden;
+    height: 183px;
+
+    img {
+        width: 100%;
+    }
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
+    bottom: 15px;
+    left: 15px;
+    min-height: 130px;
+    min-width: 130px;
+    position: absolute;
+    background: rgba(239, 73, 77, 0.7);
+    text-align: center;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption .thumb-prefix {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    left: 0;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption .thumb-prefix span {
+    display: block;
+    padding-bottom: 6px;
+    color: #ddd;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption .thumb-prefix span:last-child {
+    padding-bottom: 0;
+}
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption .thumb-prefix span a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents {
+    padding-top: 20px;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 {
+    margin: 0 0 15px 0;
+    height: 50px;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 a {
+    color: inherit;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
+    color: $primary-color;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul {
+    margin-bottom: 15px;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li {
+    display: inline-block;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li a {
+    color: inherit;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
+    color: $primary-color;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li:last-child {
+    float: right;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents .rm-btn {
+    text-align: left;
+    margin-top: 25px;
+    position: relative;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents .rm-btn:before {
+    background: #ddd;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.3s ease;
+}
+.blog-wrapper .blog-content .blog-single .blog-single-contents .rm-btn a {
+    border: 1px solid #ddd;
+    color: inherit;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    background: #fff;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn:before {
+    background: #3F51B5;
+}
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
+    background: $primary-color;
+    border-color: #3F51B5;
+    color: #fff;
+}
+.blog-wrapper .blog-content .blog-pagination ul {
+    margin-bottom: 0;
+    text-align: center;
+}
+.blog-wrapper .blog-content .blog-pagination ul li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.blog-wrapper .blog-content .blog-pagination ul li:last-child {
+    margin-right: 0;
+}
+.blog-wrapper .blog-content .blog-pagination ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    padding-top: 6px;
+    color: inherit;
+}
+.blog-wrapper .blog-content .blog-pagination ul li a:hover {
+    border-color: #3F51B5;
+    color: #3F51B5;
+}
+.blog-wrapper .blog-content .blog-pagination ul li.active a {
+    background: #3F51B5;
+    border-color: #3F51B5;
+    color: #fff;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget {
+    margin-bottom: 60px;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget:last-child {
+    margin-bottom: 0;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget h3 {
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+    position: relative;
+    padding-left: 20px;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget h3:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #3F51B5;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form {
+    position: relative;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 45px;
+    padding: 0 60px 0 15px;
+    transition: 0.3s ease;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
+    border-color: #3F51B5;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
+    width: 45px;
+    height: 45px;
+    background: #3F51B5;
+    color: #fff;
+    border: 1px solid #3F51B5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul {
+    margin-bottom: 0;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li {
+    padding: 10px 0 10px 25px;
+    position: relative;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li:before,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    left: 0;
+    background: #3F51B5;
+    top: 20px;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a {
+    color: #616161;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
+    color: #3F51B5;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul {
+    margin-bottom: 0;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li:last-child {
+    margin-right: 0;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    color: #616161;
+}
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
+    color: #3F51B5;
+    border-color: #3F51B5;
+}
+.blog .blog-btn {
+    text-align: center;
+    margin-top: 80px;
+}
+.blog .blog-btn a {
+    display: inline-block;
+    padding: 15px 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #ef494d;
+    color: #fff;
+    border-radius: 3px;
 }
 .blog .blog-single figure figcaption {
     position: relative;
@@ -1507,40 +1731,51 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .blog .blog-single figure figcaption h3 a {
     color: inherit;
 }
-.blog .blog-single figure figcaption ul.post-bottom {
-    margin-bottom: 0;
-}
-.blog .blog-single figure figcaption ul.post-bottom li {
-    display: inline-block;
-}
-.blog .blog-single figure figcaption ul.post-bottom li a {
-    color: inherit;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.blog .blog-single figure figcaption ul.post-bottom li:last-child {
-    float: right;
-}
-.blog .blog-single:hover figure figcaption h3 a,
-.blog .blog-single:hover figure figcaption ul.post-bottom li a {
-    color: #ef494d;
-}
-.blog .blog-btn {
-    text-align: center;
-    margin-top: 80px;
-}
-.blog .blog-btn a {
-    display: inline-block;
-    padding: 15px 45px;
-    font-weight: 700;
-    text-transform: uppercase;
-    background: #ef494d;
-    color: #fff;
-    border-radius: 3px;
-}
 .blog .blog-btn a:hover {
     background: #333;
 }
+
+/** Blog Page **/
+
+.blog-hero {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.article-meta{
+    margin:20px 0 30px 0;
+}
+
+.article-meta h1 {
+    margin: 0 0 20px 0;
+    line-height: 50px;
+    text-transform: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.article-meta ul {
+    margin-bottom: 0;
+}
+
+.article-meta ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.article-meta ul li i {
+    display: inline-block;
+    padding-right: 6px;
+}
+
+.article-meta ul li a {
+    color: #3F51B5;
+}
+
+/* Blog Categories */
+
 
 
 /* Client Logo */
@@ -1792,7 +2027,7 @@ footer p#back-top a:hover {
 =================================================== */
 .pages-header {
     position: relative;
-    background: url(../images/intro-bg.jpg);
+    background: url(../img/intro-bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

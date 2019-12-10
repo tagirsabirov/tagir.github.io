@@ -169,6 +169,10 @@ header nav.navbar .navbar-morki ul.nav li a:focus {
 footer p i {
     color: #3F51B5;
 }
+footer p a i {
+    color: #FFFFFF;
+    font-size: 30px !important;
+}
 footer .footer-bottom-menu ul li a:hover {
     color: #3F51B5;
 }
