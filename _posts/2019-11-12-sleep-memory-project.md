@@ -12,8 +12,7 @@ layout: blog
 In the 8th grade, I had decided to conduct a science fair study involving sleep and memory. I had always wondered how memory correlates with sleep, since parents always tell you to go to bed on time. I conducted this study by asking people how much they slept each night, and a test to see how well they remember content. For participation, I would give people candy. At the end of this study, I had near 70 data point, and had gotten 3rd place out of my grade for my science fair project. Here is the link:
 
 
-[Science Fair Project Report](https://docs.google.com/document/d/1WS0wzGa4DDX32EhYPHzwCINEUj6kXRm4Cy9rYRQGr84/edit?usp=sharing)({:target="_blank" rel="noopener"})
-
+[Science Fair Project Report](https://docs.google.com/document/d/1WS0wzGa4DDX32EhYPHzwCINEUj6kXRm4Cy9rYRQGr84/edit?usp=sharing){:target="_blank" rel="noopener"}
 
 
 Here is the presentation:
