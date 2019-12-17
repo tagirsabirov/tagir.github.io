@@ -12,8 +12,8 @@ layout: blog
 This December, my Dad is taking all the family to Japan for the first time. Because he is busy with work, he got me to do all the research
 and trip planning and put it in a presentation that he and my mom could review.
 
-After doing my research, I chose 5 cities that we could get to easily using a JR Rail pass excluding Tokyo. I had to take a balanced approach, and be careful not choose too many cities to visit as we are bringing my toddler sister
-also be taking my 3 year old sister, and she will get tired easily.
+After doing my research, I chose 5 cities that we could get to easily using a JR Rail pass excluding Tokyo. I had to take a balanced approach, and be careful not choose too many cities to visit as we are bringing my toddler sister.
+
 
 Here is the itinerary on google slides:
 
