@@ -10,17 +10,17 @@ permalink: /blog/basketball-experience/
 layout: blog
 ---
 
-I love basketball. It is my favorite sport and one of my favorite hobbies. The only problem I have with Basketball is that I started the sport
 
-One activity in which I gained something by my involvement in it is the game of basketball. I gained persistence and teamwork by playing the game.
 
-I started playing basketball in 6th grade. I hadn’t played it in 5th grade because it was my first year living in the United States. Before that, I had lived in the U.K. where basketball wasn’t as popular compared to soccer. As I started playing basketball, I was not very good. I still remember how I shot the ball with two hands while me and my classmates were playing knockout. I had only gained all the basic fundamentals by the end of 6th grade. I wanted to get better at basketball, so I kept trying and stayed persistent.
+One activity in which I gained something by my involvement in it is the game of basketball. I gained persistence and teamwork by playing the game. I love basketball. It is my favorite sport and one of my favorite hobbies. The only problem I have with Basketball is that I started the sport only in 6th grade, and not earlier in life.
 
-By 7th grade, I could dribble and shoot the ball with mediocracy, but I did not have much game sense. I wanted to play on a team. Unfortunately, as I wanted to do that, I fractured my arm trying to ride on a mechanical bull during Spring break. This not only stopped me from playing on an AAU team but also basketball for three months.
+I started playing basketball in 6th grade. I hadn’t played it in 5th grade because it was my first year living in the United States. Before that, I had lived in the U.K. where basketball wasn’t as popular compared to soccer. As I started playing basketball, I was not very good. I still remember how I shot the ball by pushing the ball with two hands while me and my classmates were playing knockout. I had only gained all the basic fundamentals by the end of 6th grade. I wanted to get better at basketball, so I kept trying and stayed persistent.
 
-After Summer break, I finally started playing on an AAU team called YFE Elite. Playing on a team was different from streetball. There was more teamwork involved. On a team, the goal isn’t to show off how good you are at breaking someone’s ankles. It is to score more points than the other team, as a team. By playing on a team, I learned how to more efficiently pass the ball, screen, and coordinate with my teammates. Playing on a team taught me teamwork.
+By 7th grade, I could dribble and shoot the ball with some confidence, but I did not have much game sense. I wanted to play on a team. Unfortunately, as I tried to do that, I fractured my arm while riding a mechanical bull during the spring break. It stopped me from playing basketball for three months.
 
-Throughout the season, I wasn't the best player on my team, I tried my best, and tried to be humble and open-minded to change. In the end, we did not lose any games until our best shooter had a surgery. After that, we lost two games, and scored 3rd in the season.
+After Summer break, I finally started playing on an AAU team called YFE Elite. Playing on a team was different from streetball. There was more teamwork involved. On a team, the goal isn’t to show off how good you are at breaking someone’s ankles. It is to score more points than the other team, as a team. By playing on a team, I learned how to more efficiently pass the ball, screen, and coordinate with my teammates. Because of joining a basketball team, I improved my teamwork skills.
+
+Basketball has taught me teamwork and persistence. These are both essential traits in life. Teamwork is important because it helps you coordinate with people to achieve goals more efficiently. Persistence matters because you need to have it to accomplish any goal in life.
 
 <p align="center">
 	<img src="/assets/blog/my-basketball-experience/basketball-game.jpg" alt="Basketball Game" class="img-responsive">

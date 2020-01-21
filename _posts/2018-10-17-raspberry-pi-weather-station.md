@@ -12,16 +12,13 @@ layout: blog
 
 As I live in Daly City, where fog and cold winds are not scarce, the science fair project suits well to this environment. My science fair project was to find out if there was a correlation between
 wind speed and air pressure since I wanted to find out whether each of them correlate. I used my Raspberry Pi to record the data and send it to a data monitoring software called Outlyer.
-We did some research on how to build a simple weather station to measure these two variables using a Raspberry PI, but to be
-honest the solutions didn't exist anymore (for example on the
+I did this project with the help of my step-dad, as he used to work at Outlyer.
 [official Raspberry PI website](https://projects.raspberrypi.org/en/projects/build-your-own-weather-station){:target="_blank" rel="noopener"}
-they have an entire section on building a weather station using a kit from Oracle which you could only get a couple of years ago from a
-school that applied for them), or too complicated, trying to replicate the entire Oracle kit from scratch, a little too complicated
-for a 12 year old.
 
-So instead we pieced together a simple weather station with just the key components we needed to measure air pressure and wind speed, and
+
+Me and my stepdad pieced together a simple weather station with just the key components we needed to measure air pressure and wind speed, and
 then use some simple Python scripts to push the data into Outlyer for storage and analysis. Below are the complete instructions on how
-to build the project so you can also build a simple but effective weather station at home yourself too!
+to build the project so you can also build a simple but effective weather station at home yourself.
 
 ## Parts List
 
@@ -81,14 +78,14 @@ Pressure        : 1010.20420804 hPa
 Humidy          : 65.0525292551 %
 ```
 
-## Measuring Wind Speed with an Analogue Anemometer
+## Measuring Wind Speed with an analog Anemometer
 
-This was the hardest part to design and source. There's a lot of electronic Anemometer's out there that work in different ways. We finally
-settled on a relatively cheap and simple Anemometer from Adafruit, that sends an analogue voltage based on how fast the cups are spinning. There
+This was the hardest part to design and source. There's a lot of electronic Anemometers out there that work in different ways. We finally
+settled on a relatively cheap and simple Anemometer from Adafruit, that sends an analog voltage based on how fast the cups are spinning. There
 isn't much information online about the sensor other than the output voltage will range from 0.4V (0 m/s wind) up to 2.0V (for 32.4m/s wind speed),
 and that it requires a 7-24v power supply to operate properly. We used a 12V power supply ourselves with success.
 
-Because the Raspberry PI doesn't have the ability to read analogue signals from the Anemometer, we had to also add an Analogue-to-Digital Converter (ADC)
+Because the Raspberry PI doesn't have the ability to read analog signals from the Anemometer, we had to also add an analog-to-Digital Converter (ADC)
 that could take the output voltage of the Anemometer and send a digital value to the Raspberry PI that could be measured. After doing some research we
 found most people use the MCP3008 8-Channel 10-Bit ADC and [this blog](https://learn.adafruit.com/reading-a-analog-in-and-controlling-audio-volume-with-the-raspberry-pi/connecting-the-cobbler-to-a-mcp3008){:target="_blank" rel="noopener"}
 provided great instructions on how to connect and use it with the Raspberry PI.
@@ -117,7 +114,7 @@ chip itself also needs to run off the Raspberry PI's 3.3V supply as well and use
 
 We connected the blue wire of the Anemometer to CH0 channel of the ADC for reading the output voltage measurements.
 
-To read the measured voltage from the MCP3008 ADC, Adafruit provides a Python library 
+To read the measured voltage from the MCP3008 ADC, Adafruit provides a Python library
 [here](https://github.com/adafruit/Adafruit_Python_MCP3008){:target="_blank" rel="noopener"} you can easily install using pip:
 
 ```bash
@@ -147,7 +144,7 @@ error to get working and wasn't organised as efficiently and cleanly as it could
 
 ## Getting Public Weather Data
 
-As a backup, just in case our reading's weren't good enough to prove the correlation between wind speed and air pressure from the Raspberry PI, we also
+As a backup, just in case our readings weren't good enough to prove the correlation between wind speed and air pressure from the Raspberry PI, we also
 wrote an Outlyer plugin that pulled in data from the [Accuweather](https://www.accuweather.com){:target="_blank" rel="noopener"} API's. You can sign up for
 a free account using their developer platform, however even running our plugin every 30 minutes soon hit the free limits of 50 calls per day (probably because
 I used a bunch of calls to test the plugin) so in the end we paid the $25 for one month of their standard package so we could make calls every 30 seconds for
