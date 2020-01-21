@@ -31,13 +31,3 @@ Basketball has taught me teamwork and persistence. These are both essential trai
 	<img src="/assets/blog/my-basketball-experience/basketball-game-end.jpg" alt="Basketball Game" class="img-responsive">
 	<strong><span style="font-size: 12px;">End of Basketball Game</span></strong>
 </p>
-
-<p align="center">
-	<img src="/assets/blog/my-basketball-experience/me-basketball.jpg" alt="Basketball Game" class="img-responsive">
-	<strong><span style="font-size: 12px;">Me Playing During a Game</span></strong>
-</p>
-
-<p align="center">
-	<img src="/assets/blog/my-basketball-experience/team-party.jpeg" alt="Basketball Party" class="img-responsive">
-	<strong><span style="font-size: 12px;">End of Season Basketball Team Party</span></strong>
-</p>

@@ -4,7 +4,7 @@ hide-date: false
 author: tagir
 image: /assets/blog/sleep-memory/sleepmemory.jpg
 hero-img-top: 24%
-description: "My 8th Grade Science Fair Project into Sleep & How it Affects Memory."
+description: "My 8th Grade Science Fair Project about Sleep & How it Affects Memory."
 categories: science-projects
 permalink: /blog/how-sleep-affects-memory/
 layout: blog

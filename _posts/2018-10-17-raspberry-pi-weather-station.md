@@ -161,7 +161,7 @@ As we don't provide an Outlyer agent out of the box for Raspberry PIs, we decide
 to push multiple samples to Outlyer every 30 seconds. The final script uses the two libraries we already
 installed for each of the sensors above, and was run via SystemD on the Raspberry PI to ensure it stayed up and running
 continuously for the two week period. To use the script, just replace {OUTLYER API KEY} and {ACCOUNT NAME} with your
-own Outlyer account details (you can sign up for a free Outlyer account <a class="signup-btn">here</a>).
+own Outlyer account details.
 
 ```python
 """
